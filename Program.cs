@@ -57,7 +57,7 @@ public class Program
             }}
         };
 
-        Console.WriteLine("Welcome to the Cellphone Store!");
+        Console.WriteLine("Welcome : choose the Smartphone you want!");
 
         // Prompt the user to choose a brand by name
         Console.WriteLine("Available Brands:");
@@ -103,14 +103,14 @@ public class Program
             }
             else
             {
-                Console.WriteLine("Invalid model choice. Exiting store.");
+                Console.WriteLine("Invalid model choice.");
             }
         }
         else
         {
-            Console.WriteLine("Invalid brand name. Exiting store.");
+            Console.WriteLine("Invalid brand name.");
         }
 
-        Console.WriteLine("Thank you for visiting the Cellphone Store!");
+        Console.WriteLine("Thank you !");
     }
 }
